@@ -4,7 +4,7 @@ from Day2.Challenge_2 import *
 from Day3.Challenge_1 import *
 from Day3.Challenge_2 import *
 
-day = 3
+day = 4
 
 if day == 1:
     print("Day 1!")
@@ -35,3 +35,5 @@ elif day == 3:
     print("Gamma is: {} ({}) and epsilon is: {} ({}) which is multiplied {}".format(binaryGamma, decimalGamma, binaryEpsilon ,decimalEpsilon, (decimalEpsilon * decimalGamma)))
 
     print("The life support rating is: {}".format(calculate_life_support_rating(input_lines)))
+elif day == 4:
+    print("Search answer in file - run file for day 4 challenge 1 and challenga 2")
