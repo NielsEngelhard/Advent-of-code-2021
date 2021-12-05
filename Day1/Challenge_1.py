@@ -8,13 +8,21 @@ def get_previous_bigger(lines):
 
 
 # Get all numbers of the file as array of numbers
-def read_input_file(filename):
+def read_input_file_int(filename):
     text_file = open(filename, "r")
     lines = text_file.readlines()
     text_file.close()
     strip_newline_chars(lines)
     desired_array = [int(numeric_string) for numeric_string in lines]
     return desired_array
+
+
+def read_input_file_string(filename):
+    text_file = open(filename, "r")
+    lines = text_file.readlines()
+    text_file.close()
+    strip_newline_chars(lines)
+    return lines
 
 
 def strip_newline_chars(lines):
